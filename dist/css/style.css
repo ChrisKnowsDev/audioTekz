@@ -126,3 +126,31 @@ p {
   padding: 0.5rem 0;
   border-bottom: 1px dotted #444;
 }
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: var(--color-primary);
+  border-radius: 20px;
+}
