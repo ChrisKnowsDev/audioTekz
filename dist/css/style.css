@@ -80,7 +80,7 @@ p {
   padding: 1.5rem;
 }
 
-.p-3 {
+.p-2 {
   padding: 2rem;
 }
 
@@ -198,4 +198,28 @@ p {
 #what .items .item i {
   color: var(--color-primary);
   margin-bottom: 1rem;
+}
+
+/* Section: Who We Are */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url('../images/people.jpg') no-repeat center center/cover;
+}
+
+/* Section: Clients */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 100px;
 }
