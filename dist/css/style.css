@@ -172,9 +172,30 @@ p {
   padding: 0 2rem;
   /* Overlay */
   position: absolute;
-  top: 0;
+  top: 67px;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Section: What We Do */
+#what .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#what .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin: 0 0.25rem;
+  border-radius: 3px;
+}
+
+#what .items .item i {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
 }
