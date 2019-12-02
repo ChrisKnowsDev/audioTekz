@@ -231,5 +231,29 @@ p {
   padding: 1rem;
   border-radius: 50%;
   border: 1rem solid #333;
-  ;
+}
+
+/* Contact Form */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form,
+#contact .map {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
 }
