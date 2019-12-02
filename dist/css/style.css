@@ -3,6 +3,7 @@
 :root {
   --color-primary: rgb(199, 0, 0);
   --color-dark: rgb(114, 1, 1);
+  --color-light: #f4f4f4;
 }
 
 * {
@@ -214,12 +215,21 @@ p {
 }
 
 /* Section: Clients */
-#clients .items {
-  display: flex;
+#clients {
+  color: #333;
 }
 
-#clients .items img {
+#clients .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+#clients .items i {
   display: block;
-  margin: auto;
-  width: 100px;
+  color: var(--color-light);
+  background: var(--color-primary);
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1rem solid #333;
+  ;
 }
