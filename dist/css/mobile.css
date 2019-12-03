@@ -20,10 +20,8 @@
   margin-bottom: 0;
 }
 
-#clients .container .items i {
-  font-size: 40px;
-  padding: 0.5rem;
-  border: 0.5rem solid #333;
+#clients .container .items {
+  justify-content: center;
 }
 
 #clients .items div:last-child {
@@ -31,7 +29,7 @@
 }
 
 /* Smartphones */
-@media(max-width: 500px) {
+@media(max-width: 650px) {
   #navbar {
     flex-direction: column;
     align-items: center;
@@ -56,6 +54,11 @@
 
   #who .who-img {
     display: none;
+  }
+
+  #clients .container .items i {
+    font-size: 3rem;
+    border: 0.5rem solid #333;
   }
 
   #contact {

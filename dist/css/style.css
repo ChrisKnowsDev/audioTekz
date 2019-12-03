@@ -231,9 +231,9 @@ p {
   color: #333;
 }
 
-#clients .items {
+#clients .container .items {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #clients .items i {
