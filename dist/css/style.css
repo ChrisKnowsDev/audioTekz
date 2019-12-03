@@ -210,12 +210,21 @@ p {
   color: #fff;
   margin: 0 0.25rem;
   border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+  transform: ;
+}
+
+#what .items .item:hover {
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
 }
 
 #what .items .item i {
   color: var(--color-primary);
   margin-bottom: 1rem;
 }
+
+
 
 /* Section: Who We Are */
 #who {
