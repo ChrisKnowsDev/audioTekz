@@ -15,6 +15,7 @@
 body {
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
+  height: 100%;
 }
 
 li {
@@ -248,6 +249,8 @@ p {
 #contact {
   display: flex;
 }
+
+
 
 #contact .contact-form,
 #contact .map {

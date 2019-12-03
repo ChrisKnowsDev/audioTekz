@@ -1,0 +1,83 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+#what .items .item {
+  margin: 1rem 0;
+}
+
+/* Align icons to the left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+  align-self: center;
+  margin-right: 1.3rem;
+  margin-bottom: 0;
+}
+
+#clients .items div:last-child {
+  display: none;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar {
+
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #showcase .showcase-content {
+    top: 109px;
+  }
+
+  #who {
+    display: block;
+  }
+
+  #who .who-img {
+    display: none;
+  }
+
+  #clients .container .items i {
+    font-size: 40px;
+    padding: 0.5rem;
+    border: 0.5rem solid #333;
+  }
+
+  #contact {
+    display: block;
+  }
+
+  #contact .map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
+}
+
+@media(max-height: 568px) {
+  #showcase .showcase-content {
+    margin-top: -2rem;
+  }
+
+  .l-heading {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
