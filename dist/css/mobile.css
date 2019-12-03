@@ -20,6 +20,12 @@
   margin-bottom: 0;
 }
 
+#clients .container .items i {
+  font-size: 40px;
+  padding: 0.5rem;
+  border: 0.5rem solid #333;
+}
+
 #clients .items div:last-child {
   display: none;
 }
@@ -50,12 +56,6 @@
 
   #who .who-img {
     display: none;
-  }
-
-  #clients .container .items i {
-    font-size: 40px;
-    padding: 0.5rem;
-    border: 0.5rem solid #333;
   }
 
   #contact {
