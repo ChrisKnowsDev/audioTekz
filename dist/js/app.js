@@ -1,20 +1,23 @@
 var map;
 
 function initMap() {
-  const loc = {
-    lat: 41.914996,
-    lng: -87.682924
-  }
-  map = new google.maps.Map(document.querySelector('.map'), {
-    center: loc,
-    zoom: 8
+  var myLatLng = {
+    lat: 33.748997,
+    lng: -84.387985
+  };
+
+  var map = new google.maps.Map(document.querySelector('.map'), {
+    zoom: 14,
+    center: myLatLng
   });
 
-  const marker = new google.maps.Marker({
-    position: loc,
-    map: map
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
   });
 }
+
+
 
 // Sticky menu background
 window.addEventListener('scroll', function () {
